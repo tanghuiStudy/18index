@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>网民互动联系我们</title>
+    <link rel="stylesheet" href="css-content.css"/>
+    <style>
+        h1{
+            margin-top:5px;
+        }
+        h1 a{
+            text-decoration: none;
+            color:darkred;
+        }
+        #contact-form{
+            padding-left:10px;
+            overflow: hidden;
+            clear:right;
+        }
+        fieldset{
+            border:0;
+            float:left;
+        }
+        .field{
+            /*float:left;*/
+            padding-bottom:7px;
+            overflow: hidden;
+            clear:both;
+        }
+
+        label{
+            display:inline-block;
+            width:80px;
+            color:#80cde7;
+            font-weight:bold;
+            float:left;
+        }
+        input{
+            border:1px solid #d9d9d9;
+            padding:2px 0 2px 3px;
+            width:240px;
+            background:none;
+        }
+        textarea{
+             width:790px;
+            height:192px;
+            border:1px solid #d9d9d9;
+            background:none;
+            padding:2px 0 2px 3px;
+        }
+        .button{
+            float:right;
+            font-style:italic;
+            font-weight: bold;
+            color:darkred;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+<!-- 顶部信息区，包含logo和公司简介与联系方式-->
+<div id="top-imformation">
+    <div id="logo">
+        <img src="img/logo.jpg"  width="293" height="112" alt="网民互动 软件开发"/>
+    </div>
+    <div id="top-imformation-home">
+        <a href="18index.html">首页</a>
+        <br/>
+        <br/>
+        我们已经为全世界超过30家知名企业进行了软件定制开发！
+    </div>
+    <div id="top-imformation-phone">
+        电话:  0755-0000000
+    </div>
+</div>
+<!--导航模板区 -->
+<div id="nav-main">
+    <div id="nav-box">
+        <div class="left">
+            <div class="right">
+                <ul>
+                    <li><a href="18index.html"><em><b>首页</b></em></a></li>
+                    <li><a href="18about-us.html"><em><b>关于我们</b></em></a></li>
+                    <li><a href="18solutions.html"><em><b>解决方案</b></em></a></li>
+                    <li><a href="18partners.html"><em><b>合作伙伴</b></em></a></li>
+                    <li><a href="18consulting.html"><em><b>咨询顾问</b></em></a></li>
+                    <li><a href="18contact-us.html"  class="current"><em><b>联系我们</b></em></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!--标题栏-->
+<div id="mastercontent">
+<div id="pagetitle">联系我们</div>
+<h1><a href="#">欢迎有需求的用户进行联系：</a></h1>
+<p>
+    公司办公室地址：<br/>
+    广东省深圳市xxxxx路中信大厦40楼 网民互动有限公司 <br/>
+    联系电话：123456789 <br/>
+</p>
+
+    <form action="" id="contact-form">
+        <fieldset>
+            <div class="field">
+                <label>姓名:</label><input type="text"/>
+            </div>
+            <div class="field">
+                <label>E-mail:</label><input type="text"/>
+            </div>
+            <div class="field">
+                <label>留言标题:</label><input type="text"/>
+            </div>
+            <div class="field">
+                <label>留言内容:</label>
+                <textarea ></textarea>
+            </div>
+            <div class="alignright" >
+                <a href="#" class="button">提交您的留言</a>
+            </div>
+        </fieldset>
+    </form>
+</div>
+<div id="footer">
+    Copyright &copy 2018网民互动软件开发有限公司
+    <div>&nbsp;</div>
+</div>
+<div id="footer-sub">
+    <ul class="nav">
+        <li><a href="18index.html">首页</a>|</li>
+        <li><a href="18about-us.html">关于我们</a>|</li>
+        <li><a href="18solutions.html">解决方案</a>|</li>
+        <li><a href="18partners.html">合作伙伴</a>|</li>
+        <li><a href="18consulting.html">咨询顾问</a>|</li>
+        <li><a href="18contact-us.html">联系我们</a></li>
+    </ul>
+</div>
+</body>
+</html>

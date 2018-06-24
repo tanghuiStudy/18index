@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>网民互动解决方案</title>
+    <link rel="stylesheet" href="css-content.css"/>
+    <style>
+        /*中间容器的宽度，向左浮动*/
+       #content-main-three-column{
+           width:560px;
+           float:left;
+       }
+       /*水平分割线高度1，无边界，背景*/
+       hr{
+           height:1px;
+           color:#E5E5E5;
+           border:0;
+          background:#E5E5E5;
+           margin:15px 0
+       }
+       /*左侧边栏，右侧边栏*/
+        #content-side1-three-column,#content-side2-three-column{
+            width:160px;
+        }
+        #content-side1-three-column{
+            float:left;
+            /*color:#ef262b;*/
+        }
+        #content-side1-three-column h2{
+            font-weight: 600;
+            margin:10px 0;
+        }
+        #content-side1-three-column ul{
+            list-style-image:url(img/arrow.gif);
+            margin-left:5px;
+        }
+        #content-side1-three-column li{
+            padding-left:10px;
+            background:url(img/list-bullet-02.gif) no-repeat left;
+        }
+        #content-side1-three-column a{
+            text-decoration: none;
+            color:darkred;
+        }
+        #content-side1-three-column a:hover{
+            text-decoration: underline;
+        }
+        #content-side1-three-column ul a{
+            font-style:italic;
+            font-weight: bold;
+            line-height: 2em;
+        }
+
+        #content-side2-three-column blockquote{
+            margin:0;
+            margin-top:10px;
+        }
+        #content-side2-three-column p{
+            margin:0;
+        }
+        #content-side2-three-column p cite{
+           padding-left:10px;
+            font-size:80%;
+        }
+    </style>
+</head>
+<body>
+<!-- 顶部信息区，包含logo和公司简介与联系方式-->
+<div id="top-imformation">
+    <div id="logo">
+        <img src="img/logo.jpg"  width="293" height="112" alt="网民互动 软件开发"/>
+    </div>
+    <div id="top-imformation-home">
+        <a href="18index.html">首页</a>
+        <br/>
+        <br/>
+        我们已经为全世界超过30家知名企业进行了软件定制开发！
+    </div>
+    <div id="top-imformation-phone">
+        电话:  0755-0000000
+    </div>
+</div>
+<!--导航模板区 -->
+<div id="nav-main">
+    <div id="nav-box">
+        <div class="left">
+            <div class="right">
+                <ul>
+                    <li><a href="18index.html"><em><b>首页</b></em></a></li>
+                    <li><a href="18about-us.html"><em><b>关于我们</b></em></a></li>
+                    <li><a href="18solutions.html"  class="current"><em><b>解决方案</b></em></a></li>
+                    <li><a href="18partners.html"><em><b>合作伙伴</b></em></a></li>
+                    <li><a href="18consulting.html"><em><b>咨询顾问</b></em></a></li>
+                    <li><a href="18contact-us.html"><em><b>联系我们</b></em></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="mastercontent">
+<div id="pagetitle">解决方案页面</div>
+<!--3栏式容器div-->
+<div id="content-container-three-column">
+    <!-- 左侧解决方案目录-->
+    <div id="content-side1-three-column">
+        <h2><a href="#">所有解决方案</a></h2>
+        <ul>
+            <li><a href="#">电子行业</a></li>
+            <li><a href="#">机械行业</a></li>
+            <li><a href="#">加工行业</a></li>
+            <li><a href="#">贸易行业</a></li>
+            <li><a href="#">家具行业</a></li>
+            <li><a href="#">软件行业</a></li>
+        </ul>
+    </div>
+    <div id="content-main-three-column">
+        <h1>我们提供的解决方案</h1>
+        <hr/>
+        Windows 8 升级助手将确定你的电脑是否为 Windows 8 做好准备，并提供一份兼容性报告。如果你的电脑已为 Windows 8 做好准备，
+        升级助手将指导你完成购买、下载和安装的步骤。了解有关升级助手的详细信息。如果你的电脑运行的是 Windows 7，你的文件、应用程序和设置可以方便地传输到 Windows 8 Pro。
+        如果你的电脑运行的是 Windows XP 或 Windows Vista，你需要重新安装应用。有些功能（例如触控功能）可能需要更换新电脑后才能使用。查看我们强大的新电脑阵容，其中很多支持触控功能。
+        <!-- 中间内容区又嵌入了一个3栏式的div结构-->
+        <div id="three-column-container">
+            <div id="three-column-side1">
+                <!-- 栏目1-->
+                <a href="#"><img src="img/person-1.jpg" alt="" class="photo-border"/></a>
+                <h2>制造业解决方案</h2>
+                <p>将你最关注的内容放在“开始”屏幕上，你就可以即时访问自己的人脉、应用和资料，从而花更少的时间找东西，有更多的时间做事情。
+                    Windows 8 的界面流畅而直观，为你用自己的方式做喜欢的事情而设计。Windows 8 专业版为你提供 Windows 8 中的一切功能，并增添了增强功能，
+                    可帮助你方便地连接到公司网络、在移动中访问文件、为数据加密等。 </p>
+                <p>
+                    <a href="#">了解更多</a>
+                    <img src="img/arrow.gif" alt=""/>
+                </p>
+            </div>
+            <div id="three-column-side2">
+                <!-- 栏目2-->
+                <a href="#"><img src="img/person-2.jpg" alt="" class="photo-border"/></a>
+                <h2>金融业解决方案</h2>
+                <p>将你最关注的内容放在“开始”屏幕上，你就可以即时访问自己的人脉、应用和资料，从而花更少的时间找东西，有更多的时间做事情。
+                    Windows 8 的界面流畅而直观，为你用自己的方式做喜欢的事情而设计。Windows 8 专业版为你提供 Windows 8 中的一切功能，并增添了增强功能，
+                    可帮助你方便地连接到公司网络、在移动中访问文件、为数据加密等。</p>
+                <p>
+                    <a href="#">了解更多</a>
+                    <img src="img/arrow.gif" alt=""/>
+                </p>
+            </div>
+            <div id="three-column-middle">
+                <!-- 中间栏目-->
+                <a href="#"><img src="img/person-3.jpg" alt="" class="photo-border"/></a>
+                <h2>贸易行业解决方案</h2>
+                <p>将你最关注的内容放在“开始”屏幕上，你就可以即时访问自己的人脉、应用和资料，从而花更少的时间找东西，有更多的时间做事情。
+                    Windows 8 的界面流畅而直观，为你用自己的方式做喜欢的事情而设计。Windows 8 专业版为你提供 Windows 8 中的一切功能，并增添了增强功能，
+                    可帮助你方便地连接到公司网络、在移动中访问文件、为数据加密等。</p>
+                <p>
+                    <a href="#">了解更多</a>
+                    <img src="img/arrow.gif" alt=""/>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- 侧边栏div元素-->
+    <div id="content-side2-three-column">
+        <h3>客户对于我们解决方案的评价</h3>
+        <blockquote>
+            <p>平板和变形本提供了更高的灵活性，旨在使工作和娱乐的性能同样强大。
+                平板重量轻，运行速度极快，电池续航时间长，你可以将它随身携带，完成所需工作，绝不会降低你的工作效率。</p>
+            <p><cite>张世明 XXX集团IT总监</cite></p>
+        </blockquote>
+        <blockquote>
+            <p>平板和变形本提供了更高的灵活性，旨在使工作和娱乐的性能同样强大。
+                平板重量轻，运行速度极快，电池续航时间长，你可以将它随身携带，完成所需工作，绝不会降低你的工作效率。</p>
+            <p><cite>张世明 XXX集团IT总监</cite></p>
+        </blockquote>
+        <blockquote>
+            <p>平板和变形本提供了更高的灵活性，旨在使工作和娱乐的性能同样强大。
+                平板重量轻，运行速度极快，电池续航时间长，你可以将它随身携带，完成所需工作，绝不会降低你的工作效率。</p>
+            <p><cite>张世明 XXX集团IT总监</cite></p>
+        </blockquote>
+        <blockquote>
+            <p>平板和变形本提供了更高的灵活性，旨在使工作和娱乐的性能同样强大。
+                平板重量轻，运行速度极快，电池续航时间长，你可以将它随身携带，完成所需工作，绝不会降低你的工作效率。</p>
+            <p><cite>张世明 XXX集团IT总监</cite></p>
+        </blockquote>
+    </div>
+    <!-- 清除浮动区域-->
+    <div class="clear"></div>
+</div>
+</div>
+<div id="footer">
+    Copyright &copy 2018网民互动软件开发有限公司
+    <div>&nbsp;</div>
+</div>
+<div id="footer-sub">
+    <ul class="nav">
+        <li><a href="18index.html">首页</a>|</li>
+        <li><a href="18about-us.html">关于我们</a>|</li>
+        <li><a href="18solutions.html">解决方案</a>|</li>
+        <li><a href="18partners.html">合作伙伴</a>|</li>
+        <li><a href="18consulting.html">咨询顾问</a>|</li>
+        <li><a href="18contact-us.html">联系我们</a></li>
+    </ul>
+</div>
+</body>
+</html>
