@@ -1,0 +1,7 @@
+/*18about-us.html,18partners.html,18consulting.html共同应用的样式*/
+#content-side1-three-column ul{border-top:1px dotted #ccc;}
+#content-side1-three-column li {border-bottom: 1px dotted #ccc;line-height:2.5em;}
+#content-side1-three-column li.home a{color:red;}
+#content-main-three-column h2{font-weight: 600;margin-top:30px;}
+#content-main-three-column h2.home{color:darkred;margin-top:0px;}
+#content-main-three-column p img{display:inline-block;float:left;margin:0px 10px 0px 0px;padding:4px;  background-color:#d9d9d9 ;border:1px solid #ccc;}
